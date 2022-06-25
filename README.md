@@ -13,7 +13,7 @@
   <img alt="Maintained" src="https://img.shields.io/maintenance/yes/2022?style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/github/languages/count/gsvprharsha/Br0ther_Ey3?style=for-the-badge">
   <img alt="Repo Size" src="https://img.shields.io/github/repo-size/gsvprharsha/Br0ther_Ey3?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/gsvprharsha/Br0ther_Ey3?color=light&style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/gsvprharsha/Hunter-Framework?color=light&style=for-the-badge">
 </p>
 
 ![demo](https://github.com/gsvprharsha/Br0ther_Ey3/blob/main/imgs/terminal.png)

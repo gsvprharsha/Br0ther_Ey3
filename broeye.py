@@ -26,9 +26,8 @@ def arguments_func():
         parser = argparse.ArgumentParser(description=termcolor.colored("Br0ther Ey3 OSINT Tool v0.0.2","magenta", attrs=['bold']),epilog=termcolor.colored("Embrace The Data :)","green", attrs=['bold']))
         parser.add_argument("--username", help='\t\t'"Profile Username", required=True, nargs=1)
         parser.add_argument("--T10", help="Scans only Top 10 websites from list", required=False, action='store_true')
-        parser.add_argument("--t",type=int,help="Take custom number of lists")
         parser.add_argument("--fbset",help="Scans the websites owned by Facebook", required=False, action='store_true')
-        parser.add_argument("--tiktok","--tt",help="Gather information only on tiktok only",required=False, action='store_true')
+        parser.add_argument("--tiktok","--tt",help="Gather information only on TikTok",required=False, action='store_true')
         parser.add_argument("--tiktok_with_profile_pic","--ttwp", help="\t\t\tTiktok OSINT that also collects the user's profile picture", required=False, action='store_true')
         return parser.parse_args()
 
@@ -399,8 +398,6 @@ def fbset(username):
     # FACEBOOK
     facebook = f'https://www.facebook.com/{username}'
 
-    print(WEBSITES[1,2])
-
     WEBSITES = [instagram, facebook]
 
     time.sleep(1)
@@ -514,7 +511,7 @@ def main():
         print("No arguments")
     elif args.fbset == True:
         fbset(args.username[0])
-    elif args.tiktok or args.tt == True:
+    elif args.tiktok == True:
         create_dir()
         scrape_profile()
         save_data()
@@ -527,8 +524,6 @@ def main():
         print_data()
         tiktok_profile_picture()
         exit    
-    elif args.list == True:
-        custom_num()
     else:
         all_dox_function(args.username[0])
         

@@ -19,8 +19,6 @@ pip3 install requests
 echo " "
 pip3 install termcolor
 echo " "
-cp broeye /usr/bin/broeye
-chmod +x /usr/bin/broeye
-echo -e "${PURPLE}[+] Br0ther_Ey3 Successfully Installed.....Type (sudo broeye or broeye) in your terminal to check...${NC}"
+echo -e "${PURPLE}[+] Br0ther_Ey3 Successfully Installed${NC}"
 
 fi

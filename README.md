@@ -68,6 +68,24 @@ If you are using it directly from the directory without installing it with `setu
 ```
 python3 broeye -u <username>
 ```
+## Optional Arguments 
+```
+usage: broeye.py [-h] --username USERNAME [--T10] [--t T] [--fbset] [--tiktok] [--tiktok_with_profile_pic]
+
+Br0ther Ey3 OSINT Tool v0.0.2
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --username USERNAME   Profile Username
+  --T10                 Scans only Top 10 websites from list
+  --t T                 Take custom number of lists
+  --fbset               Scans the websites owned by Facebook
+  --tiktok, --tt        Gather information only on tiktok only
+  --tiktok_with_profile_pic, --ttwp
+                        Tiktok OSINT that also collects the user's profile picture
+
+Embrace The Data :)
+```
 
 ## Notice
 This tool is for educational and ethical practices only. The developers are not responsible if the tool is misused by an individual.

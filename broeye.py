@@ -26,7 +26,7 @@ def arguments_func():
         parser = argparse.ArgumentParser(description=termcolor.colored("Br0ther Ey3 OSINT Tool v0.0.2","magenta", attrs=['bold']),epilog=termcolor.colored("Embrace The Data :)","green", attrs=['bold']))
         parser.add_argument("--username", help='\t\t'"Profile Username", required=True, nargs=1)
         parser.add_argument("--T10", help="Scans only Top 10 websites from list", required=False, action='store_true')
-        parser.add_argument("--fbset",help="Scans the websites owned by Facebook", required=False, action='store_true')
+        parser.add_argument("--fbset",help="Scans the websites owned by Facebook; i.e; Scans websites of companies owned by facebook. (As of now Facebook, Instagram are the websites that are being scanned)", required=False, action='store_true')
         parser.add_argument("--tiktok","--tt",help="Gather information only on TikTok",required=False, action='store_true')
         parser.add_argument("--tiktok_with_profile_pic","--ttwp", help="\t\t\tTiktok OSINT that also collects the user's profile picture", required=False, action='store_true')
         return parser.parse_args()

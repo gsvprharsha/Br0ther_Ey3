@@ -23,7 +23,7 @@
 Br0ther Ey3 is an open-source OSINT tool, that can be used to check for an individual's account on some of the most popular **Social Media websites** on the internet. It uses status codes to determine whether there is an account with the username that is provided to it; on the website.  
 
 ## Fun Fact
-Most users on the internet use the **same username** for all their social medias. Including Me :)
+Most users on the internet use the **same username** for all their social medias.
 
 
 ## Tested On
